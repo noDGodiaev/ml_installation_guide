@@ -2,6 +2,7 @@
 --------------
 
 ### Локальная установка в окружение
+**для windows и linux**
 
 Предпочтительный метод установки CUDA для работы на python. Установка  в окружение
 позволяет использовать одновременно несколько версий CUDA
@@ -12,6 +13,7 @@ conda install -c anaconda cudatoolkit=10.1
 ~~~
 
 ### Глобальная установка в PATH
+**для windows**
 
 Более трудоемкий способ установки. Позволяет использовать только одну 
 установленную версию CUDA.
@@ -25,7 +27,6 @@ conda install -c anaconda cudatoolkit=10.1
 ~~~
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\extras\CUPTI\lib64
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include
 C:\tools\cuda\bin
 ~~~
