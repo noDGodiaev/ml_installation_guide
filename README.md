@@ -36,7 +36,7 @@ C:\tools\cuda\bin
 
 ## TensorFlow
 
-[Таблица](https://www.tensorflow.org/install/gpu?hl=ur) совместимости версий tensroflow 
+[Таблица](https://www.tensorflow.org/install/source#gpu) совместимости версий tensroflow 
 и CUDA
 
 Тестовый код для проверки работы TensorFlow-gpu и CUDA
