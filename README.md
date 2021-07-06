@@ -5,7 +5,7 @@
 **для windows и linux**
 
 Предпочтительный метод установки CUDA для работы на python. Установка  в окружение
-позволяет использовать одновременно несколько версий CUDA
+позволяет использовать одновременно несколько версий CUDA. Подробно установка описана [тут](https://towardsdatascience.com/setting-up-tensorflow-gpu-with-cuda-and-anaconda-onwindows-2ee9c39b5c44)
 
 ~~~
 activate env
