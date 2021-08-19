@@ -90,6 +90,11 @@ pip install --user ipykernel
 python -m ipykernel install --user --name=<my_env_name>
 ~~~
 
+Удаление ядра (kernel) из jupiter
+~~~
+jupyter kernelspec uninstall your_env
+~~~
+
 ## Инференс моделей
 
 Инференс [Yolo](https://github.com/ArmageddonReloadedDK/video_stream) на CPU и GPU
