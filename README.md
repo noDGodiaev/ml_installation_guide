@@ -82,6 +82,22 @@ print(torch.cuda.device_count())
 print(torch.cuda.get_device_name(0))
 ~~~
 
+## Jupiter
+
+Добавление нового окружения в jupiter
+~~~
+pip install --user ipykernel
+python -m ipykernel install --user --name=<my_env_name>
+~~~
+
 ## Инференс моделей
 
 Инференс [Yolo](https://github.com/ArmageddonReloadedDK/video_stream) на CPU и GPU
+
+## Прочее
+
+~~~
+import tarfile
+tar = tarfile.open("test.tar", "r")
+tar.extractall()
+~~~
