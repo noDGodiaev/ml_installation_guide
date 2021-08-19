@@ -82,17 +82,22 @@ print(torch.cuda.device_count())
 print(torch.cuda.get_device_name(0))
 ~~~
 
-## Jupiter
+## Jupyter
 
-Добавление нового окружения в jupiter
+Добавление нового окружения в jupyter
 ~~~
 pip install --user ipykernel
 python -m ipykernel install --user --name=<my_env_name>
 ~~~
 
-Удаление ядра (kernel) из jupiter
+Удаление ядра (kernel) из jupyter
 ~~~
 jupyter kernelspec uninstall your_env
+~~~
+
+Запуск jupyter в другой директории. Войдите в свойства ярлыка jupyter-> объект -> замените "%USERPROFILE%/" на требуемую директорию. Например
+~~~
+"D:\PROJECTS\python"
 ~~~
 
 ## Инференс моделей
