@@ -82,6 +82,11 @@ print(torch.cuda.device_count())
 print(torch.cuda.get_device_name(0))
 ~~~
 
+Отключение cuda девайсов
+~~~
+torch.cuda.is_available = lambda : False
+~~~
+
 ## Jupyter
 
 Добавление нового окружения в jupyter
