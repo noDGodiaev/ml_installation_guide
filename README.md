@@ -116,3 +116,9 @@ import tarfile
 tar = tarfile.open("test.tar", "r")
 tar.extractall()
 ~~~
+
+## Conda-forge
+
+~~~
+conda install -c conda-forge ffmpeg-python
+~~~
