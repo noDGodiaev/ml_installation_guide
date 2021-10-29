@@ -105,6 +105,11 @@ jupyter kernelspec uninstall your_env
 "D:\PROJECTS\python"
 ~~~
 
+Ошибки
+
+1) ERROR 101 - нужно запускать ярлык или среду разраотки от имени адинистратора. По умолчанию ide от JetBrains не имеют
+уровень доступа администратор
+
 ## Инференс моделей
 
 Инференс [Yolo](https://github.com/ArmageddonReloadedDK/video_stream) на CPU и GPU
