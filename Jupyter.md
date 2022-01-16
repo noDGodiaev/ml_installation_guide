@@ -1,5 +1,8 @@
 ## Jupyter
-
+Установка Jupyter в Conda окружение [Jupyter Project](https://jupyter.org/install)
+```
+conda install -c conda-forge notebook
+```
 Добавление нового окружения в jupyter
 ~~~
 pip install --user ipykernel
