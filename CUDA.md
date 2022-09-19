@@ -21,7 +21,7 @@ conda install -c anaconda cudatoolkit=10.1
 быть глобальной, выполните следующие действия
 1) установите Microsoft Visual Studio 2017,2019
 2) установите Cuda Toolkit нужной версии
-3) скачайте CuDNN и переместите его в директорию C:\tools
+3) скачайте CuDNN и переместите его в директорию C:\tools (Нужно только для DL)
 4) добавьте в переменную среду пользователя PATH следующие пути
 
 ~~~
@@ -33,3 +33,15 @@ C:\tools\cuda\bin
 
 Подробно установка Cuda для TensorFlow
 описана [тут](https://www.tensorflow.org/install/gpu?hl=ur)
+
+### CUDA для компиляции CUDA приложений:
+
+Выполните следующие действия:
+1) установите Microsoft Visual Studio 2017,2019,2022
+2) установите Cuda Toolkit нужной версии
+
+Компиляция cuda приложений уровня `hello world`:
+```
+nvcc *filname* -o *output filename* --ccbin "путь до компилятора visual studio cl.exe" 
+```
+Путь обязательно в двойных кавычках.
